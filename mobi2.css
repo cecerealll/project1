@@ -1,0 +1,348 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*START*/
+
+/*attempted to make code relative to other devices*/
+
+* {
+	border: 1px red solid;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 80%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.1)),
+    url(../assets/breather-196130.jpg);
+    background-size: cover;
+    background-position: 5%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;  
+   /* max-width: 1280px;
+    margin: 0 auto;*/
+}
+
+.logo {
+	float: left;
+	font-size: 38px;
+	font-weight: 400
+	text-transform: lowercase;
+	color: #ed1e24;
+	letter-spacing: 2;
+	display: inline-block;
+	width: 33.3%;
+}
+
+.logo,
+.header-nav {
+	margin: 0;
+	padding-top: 5%;
+}
+
+.header-nav {
+	float: right;
+}
+
+.header-nav ul {
+	/*padding: 0;
+	margin: 0;*/
+} 
+
+.header-nav li {
+	float: left;
+	list-style: none;
+	padding-right: 32px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.header-nav a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.title {
+	width: 50%;
+	margin: 0;
+	display: inline-block;
+	font-size: 60px;
+	font-weight: 400;
+	color: white;
+	position: relative;
+	top: 195;
+}
+
+/*header end*/
+
+/*body start*/
+
+.feature-1,
+.feature-2,
+.feature-3 {
+	height: 33.3%;
+	margin-top: 5%;
+	position: relative;
+	/*position: absolute;*/
+	/*margin: 5%;*/
+	/*display: inline-block;*/
+	/*float: left;*/
+}
+
+.feature-1-desc,
+.feature-1-img-1,
+.feature-1-img-2 {
+	/*width: 30%;*/
+	float: left;
+	overflow: hidden;
+	margin-bottom: 2%;
+	/*display: inline-block;*/
+}
+
+/*.feature-*/
+	/*object-fit: cover;*/
+	/*height: 80%;*/
+	/*margin: 1%;*/
+/*	display: inline-block;
+	position: relative;
+	overflow: hidden;*/
+	/*margin: 30px;*/
+	/*padding: 10px;*/
+	/*object-fit: cover;*/
+	/*max-width: 20%;*/
+/*}*/
+
+/*.feature-1-img-1 {
+	width: 25%;
+	margin-right: 10px;
+}
+*/
+/*.feature-1-img-2 {
+	width: 40%;
+}*/
+
+.feature-1-desc {
+	width: 32%;
+	text-align: right;
+	position: relative;
+	margin-top: 10%;
+	/*margin-right: 5%;*/
+}
+
+h4 {
+	font-size: 19px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #a09f90;
+}
+
+h3 {
+	font-size: 33px;
+	font-weight: 600;
+}
+
+.see-more a {
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ed1e24;
+	text-decoration: underline;
+}
+
+.feature-1-img-1 {
+	width: 32%;
+	margin: 0 2%;
+	height: 180%;
+
+}
+
+.feature-1-img-2 {
+	width: 32%;
+	float: right;
+	padding-bottom: 0;
+	margin-top: 5%;
+	margin-left: 0;
+	/*margin-right: 5%;*/
+	height: 140%;
+	/*clear: both;*/
+	/*display: inline-block;*/
+	/*margin-right: 5%;*/
+}
+
+.feature-1-img-1 img {
+	width: 260%;
+	/*height: 100%;*/
+	overflow: hidden;
+	position: relative;
+	left: -100%;
+	top: -60;
+	/*float: left;*/
+}
+
+.feature-1-img-2 img{
+	width: 130%;
+	/*height: 130%;*/
+	position: relative;
+	left: -30%;
+	top: -180;
+	padding-bottom: 0;
+	/*padding: 0;*/
+	/*float: right;*/
+}
+
+/*	position: relative;
+	overflow: hidden;*/
+	/*object-fit: contain;*/
+
+/*
+.feature-1-img-1 img {
+	width: 250%;*/
+	/*height: 300%;*/
+	/*overflow: hidden;*/
+/*	position: relative;
+	left: -95%;
+	top: -60;*/
+	/*margin: 0 5%;*/
+	/*margin: 30px;*/
+	/*padding: 10px;*/
+	/*object-position: 70%;*/
+	/*object-fit: contain;*/
+/*}
+
+.feature-1-img-2 img {
+	width: 120%;*/
+	/*height: 300%;*/
+	/*overflow: hidden;*/
+/*	position: relative;
+	left: -40%;
+	top: -290;
+}*/
+
+
+
+/*.feature-1-desc {
+	position: relative;
+	top: 50;
+	/*padding-top: 50%;*/
+/*}*/
+
+/*.feature-1-img-1 {
+	background: url(../assets/sylwia-pietruszka-218324.jpg);
+	background-size: cover;
+	width: 29%;
+	height: 200%;
+	overflow: hidden;
+	background-position: 60% -70;
+	background-repeat: no-repeat;
+	margin-right: 10px; 
+}
+
+.feature-1-img-2 {
+	background: url(../assets/sarah-dorweiler-105892.jpg);
+	background-size: cover;
+	width: 29%;
+	height: 200%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: 95% -130;
+	padding-top: 40px;
+	margin: 10%;
+}*/
+
+
+/*body end*/
+
+/*footer start*/
+
+footer {
+	background: linear-gradient(rgba(0,0,0,.05), rgba(0,0,0,.1));
+}
+
+.footer-nav,
+.social-nav,
+.footer-desc {
+	width: 22.2%;
+	float: left;
+	margin-top: 5%;
+	line-height: 2;
+}
+
+.footer-nav ul,
+.social-nav ul,
+.footer-desc p {
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+	text-align: left;
+	padding-left: 0;
+}
+
+.footer-nav a,
+.social-nav a { 
+	color: black;
+	text-transform: uppercase;
+}
+
+.footer-desc p{
+	color: #a09f90;
+}
+
+.copyright {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.copyright {
+	border-top: 1px solid #a09f90;
+	margin-top: 20px;
+}
+
+.copyright p{
+	width: 33.1%;
+	float: left;
+	display: block;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #a09f90;
+}
+
+.copyright a{
+	font-size: 12px;
+	color: #a09f90;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*background shorthand didnt work?*/
