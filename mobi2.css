@@ -9,7 +9,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 /*attempted to make code relative to other devices*/
 
 * {
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -25,7 +25,7 @@ a {
 
 header {
 	background-image: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.1)),
-    url(../assets/breather-196130.jpg);
+    url(breather-196130.jpg);
     background-size: cover;
     background-position: 5%;
     background-repeat: no-repeat;
